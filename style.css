@@ -6,22 +6,22 @@ body{
 
  /* unvisited link */
 a:link {
-  color: yellow;
+  color: white;
 }
   
 /* visited link */
 a:visited {
-  color: orange;
+  color: white;
 }
   
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: yellow;
 }
   
 /* selected link */
 a:active {
-  color: hotpink;
+  color: white;
 }
 
 .container-fluid{
@@ -32,6 +32,7 @@ a:active {
 h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: bold;
+  cursor: default;
 }
 
 .bg-1{
