@@ -4,6 +4,15 @@ body{
   font-family: Arial, Helvetica, sans-serif
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.default-cursor{
+  cursor: default;
+}
+
  /* unvisited link */
 a:link {
   color: white;
@@ -29,12 +38,6 @@ a:active {
   padding-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-style: italic;
-  font-weight: bold;
-  cursor: default;
-}
-
 .bg-1{
   background-color: rgb(27, 109, 0);
   color: whitesmoke;
@@ -51,11 +54,15 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: red;
-  color: white;
+  color: whitesmoke;
   text-align: center;
 }
 
 .repo-item {
   max-width: 200px;
   max-width: 100%;
+}
+
+.dropup {
+  cursor: pointer
 }
