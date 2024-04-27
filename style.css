@@ -58,6 +58,10 @@ footer {
   text-align: center;
 }
 
+repo-div a:hover{
+  text-decoration: none;
+}
+
 .repo-item {
   max-width: 200px;
   max-width: 100%;
