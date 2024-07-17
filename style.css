@@ -7,6 +7,7 @@ body{
 h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: bold;
+  margin: 0.5em;
 }
 
 .default-cursor{
@@ -16,35 +17,40 @@ h1, h2, h3, h4, h5, h6 {
  /* unvisited link */
 a:link {
   color: white;
+  border-color: darkgray;
 }
   
 /* visited link */
 a:visited {
   color: white;
+  border-color: darkgray;
 }
   
 /* mouse over link */
 a:hover {
   color: yellow;
+  border-color: yellow;
+  text-decoration: none;
 }
   
 /* selected link */
 a:active {
   color: white;
+  border-color: darkgray;
 }
 
 .container-fluid{
-  padding-top: 5px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 
 .bg-1{
-  background-color: rgb(27, 109, 0);
+  background-color: rgb(44, 44, 44);
   color: whitesmoke;
 }
 
 .bg-2{
-  background-color: blue;
+  background-color: rgb(3, 3, 3);
   color: whitesmoke;
 }
 
@@ -53,18 +59,43 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgb(55, 22, 27);
   color: whitesmoke;
   text-align: center;
 }
 
-repo-div a:hover{
+.row{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.repo-panel {
+  background-color: rgb(44, 44, 55);
+  padding: 0.1em;
+  border: 0.1em;
+  margin: 0.1em;
+  border-radius: 25px;
+}
+
+.repo-info {
+  padding: 10px;
+  border-color: inherit;
+}
+
+.repo-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.repo-info a:hover{
   text-decoration: none;
 }
 
-.repo-item {
-  max-width: 200px;
+.repo-img, .repo-bar {
   max-width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: inherit;
 }
 
 .dropup {
