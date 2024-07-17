@@ -19,12 +19,14 @@ h1, h2, h3, h4, h5, h6 {
 a:link {
   color: white;
   border-color: darkgray;
+  text-decoration: none;
 }
   
 /* visited link */
 a:visited {
   color: white;
   border-color: darkgray;
+  text-decoration: none;
 }
   
 /* mouse over link */
@@ -38,6 +40,7 @@ a:hover {
 a:active {
   color: white;
   border-color: darkgray;
+  text-decoration: none;
 }
 
 .container-fluid{
