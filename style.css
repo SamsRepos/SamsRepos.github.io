@@ -68,10 +68,17 @@ footer {
   text-align: center;
 }
 
-.row{
+.row {
   text-align: center;
   vertical-align: middle;
 }
+
+@media (min-width: 992px) {
+  .row {
+    margin-bottom: 10px;
+  }
+}
+
 
 .repo-panel {
   background-color: rgb(44, 44, 55);
