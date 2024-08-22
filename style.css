@@ -137,12 +137,18 @@ footer {
     padding: 0;
   }
 
-  .repo-panel {
+  .repo-panel, .repo-panel a {
     display: flex;
     flex-direction: column;
     flex: 1;
     margin: 1em 0.5em;
     height: 100%;
   }
+
+  .repo-progress-panel {
+    margin-top: auto;
+    margin-bottom: 5px;
+  }
+  
   
 }
