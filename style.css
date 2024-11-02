@@ -5,10 +5,53 @@ body {
   padding-bottom: 25px;
 }
 
+.sam-header {
+  margin: 1.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sam-pic {
+  width: 200px;
+  max-width: 200px;
+  height: auto;
+}
+
+.sam-text {
+  text-align: left !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+}
+
+.sam-header h1 {
+  margin: 0;
+}
+
+.sam-header h4 {
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
+}
+
+.sam-header p, .sam-header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sam-header ul {
+  margin-top: 0.5em;
+  padding-left: 1em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: bold;
-  margin: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.1em;
 }
 
 .default-cursor {
