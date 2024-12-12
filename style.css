@@ -176,8 +176,21 @@ footer {
 }
 
 .repo-progress-panel {
-  margin-top: auto;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.repo-progress-panel span {
+  font-size: 0.9em;
+  color: #aaa;
+  font-style: italic;
+}
+
+.repo-bar.progress {
+  flex-grow: 1;
+  margin: 0;
 }
 
 .dropup {
