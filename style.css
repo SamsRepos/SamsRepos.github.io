@@ -111,7 +111,6 @@ a:active {
 
 .bg-2 {
   background-color: rgb(3, 3, 3);
-  color: whitesmoke;
 }
 
 footer {
@@ -119,7 +118,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(55, 22, 27);
+  background-color: rgb(24, 22, 55);
   color: whitesmoke;
   text-align: center;
 }
