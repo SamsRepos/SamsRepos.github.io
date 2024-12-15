@@ -111,6 +111,19 @@ a:active {
 
 .bg-2 {
   background-color: rgb(3, 3, 3);
+  background-image: 
+    repeating-linear-gradient(45deg, 
+      rgba(20, 20, 20, 0.2) 0px,
+      rgba(20, 20, 20, 0.2) 2px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0) 4px
+    ),
+    repeating-linear-gradient(-45deg,
+      rgba(20, 20, 20, 0.2) 0px,
+      rgba(20, 20, 20, 0.2) 2px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0) 4px
+    );
 }
 
 footer {
