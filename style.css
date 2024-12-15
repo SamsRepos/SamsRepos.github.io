@@ -1,8 +1,9 @@
 body {
   background-color: black;
-  color: white;
+  color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 25px;
+  font-family: Bahnschrift, Arial, sans-serif;
 }
 
 .sam-header {
@@ -93,7 +94,6 @@ a:active {
   background: linear-gradient(to top, #0a6e3b, #0f6955);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
-  color: whitesmoke;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
