@@ -18,6 +18,8 @@ body {
   max-width: 200px;
   height: auto;
   margin-bottom: 1em;
+  border: 2px solid #4e9c5b;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .sam-text {
@@ -85,6 +87,26 @@ a:active {
 .bg-1 {
   background-color: rgb(44, 44, 44);
   color: whitesmoke;
+}
+
+.bg-1-gradient {
+  background: linear-gradient(to top, #0a6e3b, #0f6955);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  color: whitesmoke;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
 }
 
 .bg-2 {
