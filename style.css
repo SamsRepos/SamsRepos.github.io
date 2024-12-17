@@ -126,6 +126,11 @@ a:active {
     );
 }
 
+.container-all-repos {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 footer {
   position: fixed;
   left: 0;
