@@ -4,6 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 25px;
   font-family: Bahnschrift, Arial, sans-serif;
+  text-shadow: 0 0 8px rgba(24, 22, 55, 0.4) !important;
 }
 
 .sam-header {
@@ -69,8 +70,8 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: yellow;
-  border-color: yellow;
+  color: white;
+  border-color: #2ce3b9;
   text-decoration: none;
 }
 
@@ -94,7 +95,6 @@ a:active {
   background: linear-gradient(to top, #0f6955, #0a6e3b);
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes gradientAnimation {
@@ -147,11 +147,12 @@ footer {
   border-radius: 25px;
   border-style: solid;
   border-width: 1px;
-  border-color: black;
+  border-color: rgb(44, 44, 55);
   display: flex;
   flex-direction: column;
   height: 100%;
-  transition: background-color 0.3s ease, border-color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 12px rgba(24, 22, 55, 0.5);
 }
 
 .repo-panel, .repo-panel a {
@@ -163,8 +164,9 @@ footer {
 }
 
 .repo-panel:hover {
-  border-color: yellow;
-  background-color: rgb(100, 114, 60);
+  border-color: #2ce3b9;
+  background-color: #0f6955;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
 }
 
 .repo-info {
@@ -230,11 +232,13 @@ footer {
 
 .github-link {
     display: inline-block;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .github-link:hover {
     transform: translateY(-5px);
+    color: #2ce3b9;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
 }
 
 .github-link {
