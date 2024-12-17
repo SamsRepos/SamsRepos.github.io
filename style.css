@@ -110,20 +110,8 @@ a:active {
 }
 
 .bg-2 {
-  background-color: rgb(3, 3, 3);
-  background-image: 
-    repeating-linear-gradient(45deg, 
-      rgba(20, 20, 20, 0.2) 0px,
-      rgba(20, 20, 20, 0.2) 2px,
-      rgba(0, 0, 0, 0) 2px,
-      rgba(0, 0, 0, 0) 4px
-    ),
-    repeating-linear-gradient(-45deg,
-      rgba(20, 20, 20, 0.2) 0px,
-      rgba(20, 20, 20, 0.2) 2px,
-      rgba(0, 0, 0, 0) 2px,
-      rgba(0, 0, 0, 0) 4px
-    );
+  background: linear-gradient(rgba(24, 22, 55, 0.4), rgba(0, 0, 0, 0)), url('media/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .container-all-repos {
