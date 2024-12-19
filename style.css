@@ -2,7 +2,6 @@ body {
   background-color: black;
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 25px;
   font-family: Bahnschrift, Arial, sans-serif;
   text-shadow: 0 0 8px rgba(24, 22, 55, 0.4) !important;
 }
@@ -120,7 +119,6 @@ a:active {
 }
 
 footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
