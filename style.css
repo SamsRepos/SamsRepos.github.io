@@ -1,0 +1,256 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Bahnschrift, Arial, sans-serif;
+  text-shadow: 0 0 8px rgba(24, 22, 55, 0.4) !important;
+}
+
+.sam-header {
+  margin: 1.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sam-pic {
+  width: 200px;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1em;
+  border: 2px solid #4e9c5b;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.sam-text {
+  text-align: left !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1em;
+}
+
+.sam-header h1 {
+  margin: 0;
+}
+
+.sam-header h4 {
+  margin-top: 0.1em;
+  margin-bottom: 0.3em;
+}
+
+.sam-header p, .sam-header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sam-header ul {
+  margin-top: 0.5em;
+  padding-left: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.1em;
+}
+
+.default-cursor {
+  cursor: default;
+}
+
+a:link, a:visited {
+  color: white;
+  border-color: darkgray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  border-color: #2ce3b9;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  border-color: darkgray;
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+.bg-1 {
+  background-color: rgb(44, 44, 44);
+  color: whitesmoke;
+}
+
+.bg-1-gradient {
+  background: linear-gradient(to top, #0f6955, #0a6e3b);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+.bg-2 {
+  background: linear-gradient(rgba(24, 22, 55, 0.4), rgba(0, 0, 0, 0)), url('media/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container-all-repos {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(24, 22, 55);
+  color: whitesmoke;
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.repo-panel-container {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.75em;
+}
+
+.repo-panel {
+  background-color: rgb(38, 36, 55);
+  padding: 0.1em;
+  margin: 0.5em 0.1em;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(44, 44, 55);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 12px rgba(24, 22, 55, 0.5);
+}
+
+.repo-panel, .repo-panel a {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 1em;
+  height: 100%;
+}
+
+.repo-panel:hover {
+  border-color: #2ce3b9;
+  background-color: #0f6955;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.repo-info {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: inherit;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+.repo-info h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.repo-img, .repo-bar {
+  max-width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: inherit;
+  margin: 0;
+}
+
+.repo-info ul {
+  text-align: left;
+  padding-left: inherit;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.repo-info li {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+.repo-progress-panel {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.repo-progress-panel span {
+  font-size: 0.9em;
+  color: #aaa;
+  font-style: italic;
+}
+
+.repo-bar.progress {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.dropup {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.github-link {
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.github-link:hover {
+    color: #2ce3b9;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+    transform: translateY(-1px);
+}
+
+.github-link {
+    margin: 0.5em;
+    display: inline-block;
+}
+
+.float-up-link {
+    transition: transform 0.3s ease;
+}
+
+.float-up-link:hover {
+    transform: translateY(-2px);
+}
+
